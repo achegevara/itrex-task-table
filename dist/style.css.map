@@ -1,0 +1,1 @@
+{"version":3,"file":"style.css","mappings":";;;AAAA;EACI,UAAU","sources":["webpack://itrex-task-table/./src/styles/app.scss"],"sourcesContent":[".test {\n    color: red;\n}"],"names":[],"sourceRoot":""}
