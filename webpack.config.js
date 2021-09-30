@@ -3,7 +3,7 @@ const miniCss = require('mini-css-extract-plugin');
 
 module.exports = {
    mode: 'development',
-   devtool: 'source-map',
+   devtool: 'inline-source-map',
    entry: './src/app.js',
    output: {
       filename: 'bundle.js',

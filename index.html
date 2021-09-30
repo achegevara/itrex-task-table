@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,38 @@
     <script defer src="./dist/bundle.js"></script>
     <title>ITRex Task</title>
 </head>
+
 <body>
-    <div class="test">Test text</div>
+    <div class="container">
+        <div class="filter">
+            <label for="search">Search:
+                <input id="search" class="filter__search" placeholder="Enter text here..." />
+            </label>
+            <select class="filter__select">
+                <option hidden>Filter by state</option>
+            </select>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="table__th" data-type="number">id<span class="table__arrow table__arrow_default"></span></th>
+                    <th class="table__th" data-type="string">First name<span class="table__arrow table__arrow_default"></span></th>
+                    <th class="table__th" data-type="string">Last name<span class="table__arrow table__arrow_default"></span></th>
+                    <th class="table__th" data-type="string">Email<span class="table__arrow table__arrow_default"></span></th>
+                    <th class="table__th" data-type="string">Phone<span class="table__arrow table__arrow_default"></span></th>
+                    <th class="table__th" data-type="string">State<span class="table__arrow table__arrow_default"></span></th>
+                </tr>
+            </thead>
+            <tbody class="table__body"></tbody>
+        </table>
+        <div class="pagination">
+            <a class="pagination__prevButton">Previous</a>
+            <a class="pagination__nextButton">Next</a>
+        </div>
+        <div class="info-block">
+            <div>Profile info:</div>
+        </div>
+    </div>
 </body>
+
 </html>
