@@ -1,0 +1,14 @@
+@import "./reset.css";
+@import "./fonts.css";
+@import "./container.css";
+@import "./filter.css";
+@import "./table.css";
+@import "./pagination.css";
+@import "./infoBlock.css";
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #495057;
+}

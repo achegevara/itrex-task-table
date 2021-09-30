@@ -13,11 +13,11 @@
 <body>
     <div class="container">
         <div class="filter">
-            <label for="search">Search:
+            <label for="search" class="filter__search-label">Search:
                 <input id="search" class="filter__search" placeholder="Enter text here..." />
             </label>
             <select class="filter__select">
-                <option hidden>Filter by state</option>
+                <option selected disabled>Filter by state ↓</option>
             </select>
         </div>
         <table class="table">
@@ -34,12 +34,10 @@
             <tbody class="table__body"></tbody>
         </table>
         <div class="pagination">
-            <a class="pagination__prevButton">Previous</a>
-            <a class="pagination__nextButton">Next</a>
+            <button class="pagination__prevButton">Previous</button>
+            <button class="pagination__nextButton">Next</button>
         </div>
-        <div class="info-block">
-            <div>Profile info:</div>
-        </div>
+        <div class="info-block"></div>
     </div>
 </body>
 
