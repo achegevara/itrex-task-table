@@ -7,7 +7,7 @@ You can find the demo here(gitHub pages): https://achegevara.github.io/itrex-tas
 
 The result file **index.html** is situated in the root folder of the project.<br>
 The compiled "style.css" and "bundle.js" files are in the <b>/dist</b> folder.<br>
-But I suppose the source(pre-build) files with my comments on the code will be more clear. They are available in the <b>«/src»</b> folder.
+But I suppose the source(pre-build) files with my comments on the code will be more clear. They are available in the <b>«/src»</b> one.
 
 <br>
 As usual, type
